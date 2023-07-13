@@ -18,7 +18,7 @@ spec:
         app: sample-app
     spec:
       containers:
-        - image: ghcr.io/yos0602/yos-node-express-template:pr-1
+        - image: ghcr.io/yos0602/yos-node-express-template:pr-0
           name: yos-node-express-template
           envFrom:
             - configMapRef:
