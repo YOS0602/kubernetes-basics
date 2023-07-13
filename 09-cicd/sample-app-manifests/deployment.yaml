@@ -18,8 +18,8 @@ spec:
         app: sample-app
     spec:
       containers:
-        - image: ghcr.io/nakamasato/fastapi-sample:v1.0
-          name: fastapi-sample
+        - image: ghcr.io/yos0602/yos-node-express-template:pr-1
+          name: yos-node-express-template
           envFrom:
             - configMapRef:
                 name: sample-app
